@@ -227,9 +227,12 @@ footer
     align-items: center
     color: colors.$darkest-color
     justify-content: space-around
-    & #copyright
-      display: flex
-      gap: 0.3rem
+    & .footer-icon
+      font-size: 2em
+      color: colors.$wine-color
+      transition: 500ms ease-in-out
+      &:hover
+        color: colors.$secondary-salmon
 
 @media screen and ( max-width: 666px  )
   #main

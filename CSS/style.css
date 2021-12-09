@@ -239,9 +239,13 @@ footer .ico {
   color: #4c2440;
   justify-content: space-around;
 }
-footer .ico #copyright {
-  display: flex;
-  gap: 0.3rem;
+footer .ico .footer-icon {
+  font-size: 2em;
+  color: #7b2445;
+  transition: 500ms ease-in-out;
+}
+footer .ico .footer-icon:hover {
+  color: #d92f26;
 }
 
 @media screen and (max-width: 666px) {
