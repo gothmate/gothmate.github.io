@@ -187,7 +187,7 @@ nav .logo img {
   width: 100%;
 }
 
-.gothflix, .time-tracking, .social-media, .btn-study2, .slice {
+.gothflix, .time-tracking, .social-media, .btn-study {
   flex-direction: row-reverse;
 }
 
@@ -203,6 +203,27 @@ nav .logo img {
 }
 #about h2 {
   font-size: 2em;
+}
+
+.arrowup {
+  position: fixed;
+  top: 93%;
+  right: 3%;
+  width: 2rem;
+  height: 2rem;
+  background: #4c2440;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 300ms ease-in-out;
+}
+.arrowup a {
+  text-decoration: none;
+  color: white;
+}
+.arrowup:hover {
+  background: #d9af26;
 }
 
 #contact {
@@ -232,20 +253,16 @@ footer {
   box-shadow: 0 2px 8px #4c2440;
 }
 footer .ico {
-  width: 80vw;
+  width: 16rem;
   height: 2.3rem;
   display: flex;
   align-items: center;
   color: #4c2440;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-footer .ico .footer-icon {
-  font-size: 2em;
-  color: #7b2445;
-  transition: 500ms ease-in-out;
-}
-footer .ico .footer-icon:hover {
-  color: #d92f26;
+footer .ico #copyright {
+  display: flex;
+  gap: 0.3rem;
 }
 
 @media screen and (max-width: 666px) {

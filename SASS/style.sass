@@ -1,5 +1,12 @@
 @use 'colors'
 
+@mixin hamburguer
+  content: ''
+  position: absolute
+  width: 2rem
+  height: 3px
+  background: colors.$wine-color
+
 @mixin borderDivider
   content: ''
   position: absolute
@@ -180,7 +187,7 @@ nav
     box-shadow: 2px 2px 20px colors.$darkest-color
     & img
       width: 100%
-.gothflix, .time-tracking, .social-media, .btn-study2, .slice
+.gothflix, .time-tracking, .social-media, .btn-study
   flex-direction: row-reverse
 
 #about
@@ -194,6 +201,24 @@ nav
   padding: 5.5rem 0 0
   & h2
     font-size: 2em
+
+.arrowup
+  position: fixed
+  top: 93%
+  right: 3%
+  width: 2rem
+  height: 2rem
+  background: colors.$darkest-color
+  border-radius: 50%
+  display: flex
+  align-items: center
+  justify-content: center
+  transition: 300ms ease-in-out
+  & a
+    text-decoration: none
+    color: white
+  &:hover
+    background: colors.$base-yellow
 
 #contact
   display: flex
@@ -221,18 +246,15 @@ footer
   box-shadow: 0 2px 8px colors.$darkest-color
 
   & .ico
-    width: 80vw
+    width: 16rem
     height: 2.3rem
     display: flex
     align-items: center
     color: colors.$darkest-color
-    justify-content: space-around
-    & .footer-icon
-      font-size: 2em
-      color: colors.$wine-color
-      transition: 500ms ease-in-out
-      &:hover
-        color: colors.$secondary-salmon
+    justify-content: space-between
+    & #copyright
+      display: flex
+      gap: 0.3rem
 
 @media screen and ( max-width: 666px  )
   #main
