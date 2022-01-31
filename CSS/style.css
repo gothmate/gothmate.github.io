@@ -187,7 +187,7 @@ nav .logo img {
   width: 100%;
 }
 
-.gothflix, .time-tracking, .social-media, .btn-study {
+.gothflix, .time-tracking, .social-media, .magic-navbar, .btn-study2 {
   flex-direction: row-reverse;
 }
 
@@ -253,12 +253,19 @@ footer {
   box-shadow: 0 2px 8px #4c2440;
 }
 footer .ico {
-  width: 16rem;
+  width: 17rem;
   height: 2.3rem;
   display: flex;
   align-items: center;
   color: #4c2440;
   justify-content: space-between;
+}
+footer .ico #phone a,
+footer .ico #contacts a,
+footer .ico #follow a,
+footer .ico #codepen a,
+footer .ico #figma a {
+  font-size: 32px;
 }
 footer .ico #copyright {
   display: flex;
