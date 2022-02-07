@@ -163,6 +163,10 @@ nav .logo img {
   margin: 5vw;
   padding: 3rem 0;
 }
+.work img {
+  height: fit-content;
+  width: 200px;
+}
 .work .text-work {
   font-size: 1.3em;
   width: 50%;
@@ -175,15 +179,6 @@ nav .logo img {
 .work .text-work a:hover {
   color: #a91e45;
   text-decoration: underline dotted;
-}
-.work .img-work {
-  margin: 0 1rem;
-  width: fit-content;
-  height: fit-content;
-  box-shadow: 2px 2px 20px #4c2440;
-}
-.work .img-work img {
-  height: 150px;
 }
 
 .gothflix, .time-tracking, .social-media, .pengo, .btn-study2, .cube3d {

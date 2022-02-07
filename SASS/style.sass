@@ -168,6 +168,10 @@ nav
   margin: 5vw
   padding: 3rem 0
 
+  & img
+    height: fit-content
+    width: max(200px)
+
   & .text-work
     font-size: 1.3em
     width: 50%
@@ -179,13 +183,7 @@ nav
       &:hover
         color: colors.$blood-bg
         text-decoration: underline dotted
-  & .img-work
-    margin: 0 1rem
-    width: fit-content
-    height: fit-content
-    box-shadow: 2px 2px 20px colors.$darkest-color
-    & img
-      height: max(150px)
+
 .gothflix, .time-tracking, .social-media, .pengo, .btn-study2, .cube3d
   flex-direction: row-reverse
 
