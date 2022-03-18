@@ -173,7 +173,8 @@ nav .logo img {
 }
 .work .text-work a {
   text-decoration: none;
-  color: #d92f26;
+  color: #a91e45;
+  font-weight: bold;
   transition: 300ms ease;
 }
 .work .text-work a:hover {
@@ -240,7 +241,6 @@ footer {
   display: flex;
   justify-content: center;
   top: calc(100% - 4rem);
-  color: #d92f26;
   padding: 1rem;
   background: rgba(217, 175, 38, 0.9);
   backdrop-filter: blur(10px);
@@ -251,7 +251,6 @@ footer .ico {
   height: 2.3rem;
   display: flex;
   align-items: center;
-  color: #4c2440;
   justify-content: space-between;
 }
 footer .ico #phone a,
